@@ -1,5 +1,12 @@
 
 
+## [0.1.0-4](https://github.com/92green/reusable-regex/compare/0.1.0-3...0.1.0-4) (2023-09-18)
+
+
+### Features
+
+* improved regex for v4 uuid ([6ab01bd](https://github.com/92green/reusable-regex/commit/6ab01bd1a4f4f59daadb751fcb916c4e1ba60bfb))
+
 ## [0.1.0-3](https://github.com/92green/reusable-regex/compare/0.1.0-2...0.1.0-3) (2023-09-18)
 
 
