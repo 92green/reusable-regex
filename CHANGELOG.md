@@ -1,5 +1,17 @@
 
 
+## [0.1.0-2](https://github.com/92green/reusable-regex/compare/0.1.0-1...0.1.0-2) (2023-09-18)
+
+
+### Bug Fixes
+
+* removed engines from package.json ([347832e](https://github.com/92green/reusable-regex/commit/347832eb5ad978b4245dc736bf56243aeb92b22b))
+
+
+### Maintenance
+
+* updated lock ([679d447](https://github.com/92green/reusable-regex/commit/679d447e329a968bb88316abd5d44d780ba34670))
+
 ## [0.1.0-1](https://github.com/92green/reusable-regex/compare/0.1.0-0...0.1.0-1) (2023-09-18)
 
 
