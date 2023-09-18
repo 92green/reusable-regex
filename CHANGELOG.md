@@ -1,5 +1,7 @@
 
 
+## [0.1.0](https://github.com/92green/reusable-regex/compare/0.1.0-4...0.1.0) (2023-09-18)
+
 ## [0.1.0-4](https://github.com/92green/reusable-regex/compare/0.1.0-3...0.1.0-4) (2023-09-18)
 
 
