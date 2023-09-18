@@ -29,9 +29,6 @@
         "regex",
         "regular expressions"
     ],
-    "engines": {
-        "node": ">=18.17.1 <19.0.0"
-    },
     "dependencies": {},
     "devDependencies": {
         "jest": "^29.7.0",
