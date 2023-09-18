@@ -1,27 +1,27 @@
 {
     "name": "@92green/possum-regexes",
-    "version": "0.0.0",
+    "version": "0.1.0-0",
     "description": "Resuable regexes for blueflag projects.",
     "main": "index.js",
     "author": "Daniel Corcoran",
     "license": "MIT",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/92green/reusable-regex.git"
+        "type": "git",
+        "url": "git+https://github.com/92green/reusable-regex.git"
     },
     "bugs": {
-      "url": "https://github.com/92green/reusable-regex/issues"
+        "url": "https://github.com/92green/reusable-regex/issues"
     },
     "private": true,
     "files": [
-      "index.js",
-      "README.md"
+        "index.js",
+        "README.md"
     ],
     "scripts": {
-      "release": "release-it",
-      "test": "jest --silent --verbose=false",
-      "prepublishOnly": "npm run test",
-      "prepare": "husky install"
+        "release": "release-it",
+        "test": "jest --silent --verbose=false",
+        "prepublishOnly": "npm run test",
+        "prepare": "husky install"
     },
     "keywords": [
         "regex",
@@ -29,47 +29,47 @@
     ],
     "engines": {
         "node": ">=18.17.1 <19.0.0"
-      },
+    },
     "dependencies": {},
     "devDependencies": {
-      "jest": "^29.7.0",
-      "release-it": "^15.11.0",
-      "husky": "^8.0.3",
-      "@commitlint/cli": "^17.7.1",
-      "@commitlint/config-conventional": "^17.7.0",
-      "@release-it/conventional-changelog": "^5.1.1"
+        "jest": "^29.7.0",
+        "release-it": "^15.11.0",
+        "husky": "^8.0.3",
+        "@commitlint/cli": "^17.7.1",
+        "@commitlint/config-conventional": "^17.7.0",
+        "@release-it/conventional-changelog": "^5.1.1"
     },
     "release-it": {
-      "git": {
-        "commitMessage": "chore: release v${version}"
-      },
-      "github": {
-        "release": true
-      },
-      "npm": {
-        "publish": true
-      },
-      "plugins": {
-        "@release-it/conventional-changelog": {
-          "infile": "CHANGELOG.md",
-          "preset": {
-            "name": "conventionalcommits",
-            "types": [
-              {
-                "type": "feat",
-                "section": "Features"
-              },
-              {
-                "type": "fix",
-                "section": "Bug Fixes"
-              },
-              {
-                "type": "chore",
-                "section": "Maintenance"
-              }
-            ]
-          }
+        "git": {
+            "commitMessage": "chore: release v${version}"
+        },
+        "github": {
+            "release": true
+        },
+        "npm": {
+            "publish": true
+        },
+        "plugins": {
+            "@release-it/conventional-changelog": {
+                "infile": "CHANGELOG.md",
+                "preset": {
+                    "name": "conventionalcommits",
+                    "types": [
+                        {
+                            "type": "feat",
+                            "section": "Features"
+                        },
+                        {
+                            "type": "fix",
+                            "section": "Bug Fixes"
+                        },
+                        {
+                            "type": "chore",
+                            "section": "Maintenance"
+                        }
+                    ]
+                }
+            }
         }
-      }
     }
-  }
+}
