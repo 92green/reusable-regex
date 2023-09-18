@@ -1,6 +1,6 @@
 {
     "name": "@92green/reusable-regex",
-    "version": "0.1.0-0",
+    "version": "0.1.0-1",
     "description": "Resuable regexes for blueflag projects.",
     "main": "index.js",
     "author": "Daniel Corcoran",
@@ -17,7 +17,7 @@
         "README.md"
     ],
     "publishConfig": {
-      "registry": "https://npm.pkg.github.com"
+        "registry": "https://npm.pkg.github.com"
     },
     "scripts": {
         "release": "release-it",
