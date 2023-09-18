@@ -16,6 +16,9 @@
         "index.js",
         "README.md"
     ],
+    "publishConfig": {
+      "registry": "https://npm.pkg.github.com"
+    },
     "scripts": {
         "release": "release-it",
         "test": "jest --silent --verbose=false",
