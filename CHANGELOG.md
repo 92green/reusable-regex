@@ -1,5 +1,14 @@
 
 
+## [0.1.0-1](https://github.com/92green/reusable-regex/compare/0.1.0-0...0.1.0-1) (2023-09-18)
+
+
+### Bug Fixes
+
+* added publish config ([8dd4c93](https://github.com/92green/reusable-regex/commit/8dd4c9312484d44fa6c08c197f7abbb67750bf84))
+* corrected name/private key/values ([5038267](https://github.com/92green/reusable-regex/commit/5038267b459aa9c00ffa572363a454105e9ee1c1))
+* regenerated lock file ([b581ffe](https://github.com/92green/reusable-regex/commit/b581ffecc5d08eca355a200e3f9818ad8e2a60d9))
+
 ## 0.1.0-0 (2023-09-18)
 
 
