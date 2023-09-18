@@ -41,6 +41,7 @@ describe("REGEXES SUITE", () => {
         {input: "27efac41-3fc0-43ac-a992-171124219ead", output: true},
         {input: "008f6ae1-77bd-43b2-94ca-a37b3eea4316", output: true},
         {input: "5099072e-b00e-46a2-a86f-7ce6a481e99c", output: true},
+        {input: "00000000-0000-0000-0000-000000000000", output: true},
     
         {input: "5099072e b00e 46a2 a86f 7ce6a481e99c", output: false},
         {input: " 5099072e-b00e-46a2-a86f-7ce6a481e99c", output: false},
