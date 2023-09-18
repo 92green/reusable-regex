@@ -1,5 +1,12 @@
 
 
+## [0.1.0-3](https://github.com/92green/reusable-regex/compare/0.1.0-2...0.1.0-3) (2023-09-18)
+
+
+### Features
+
+* renamed HEX_CODE_REGEX ([d62bc19](https://github.com/92green/reusable-regex/commit/d62bc1963c393a3f7477c235be94ba1c9bd0de8e))
+
 ## [0.1.0-2](https://github.com/92green/reusable-regex/compare/0.1.0-1...0.1.0-2) (2023-09-18)
 
 
