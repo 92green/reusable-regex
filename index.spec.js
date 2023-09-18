@@ -1,6 +1,6 @@
 const {
     UUIDV4_REGEX,
-    HEX_CODE_REGEX,
+    HEX_COLOUR_CODE_REGEX,
     TENANT_ID_REGEX,
     ISO_DATETIME_REGEX
 } = require('.')
@@ -30,9 +30,9 @@ describe("REGEXES SUITE", () => {
         {input: "red", output: false},
         {input: "blue", output: false},
         {input: "", output: false}
-    ])("HEX_CODE_REGEX: $input should result in $output", ({input, output}) => {
+    ])("HEX_COLOUR_CODE_REGEX: $input should result in $output", ({input, output}) => {
         expect(
-            HEX_CODE_REGEX.test(input)
+            HEX_COLOUR_CODE_REGEX.test(input)
         ).toEqual(output)
     })
 
