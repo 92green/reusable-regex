@@ -63,6 +63,7 @@ describe("REGEXES SUITE", () => {
     */
     it.each([
         {input: "brand-brand", output: true},
+        {input: "brand-brand-brand", output: true},
         {input: "brand_brand", output: true},
         {input: "Brand_Brand", output: true},
         {input: "BRAND-BRAND", output: true},
