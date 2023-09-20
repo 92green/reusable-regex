@@ -1,5 +1,12 @@
 
 
+## [0.2.0-6](https://github.com/92green/reusable-regex/compare/0.2.0-5...0.2.0-6) (2023-09-20)
+
+
+### Features
+
+* updated test cases for tenantid regex ([f3e1133](https://github.com/92green/reusable-regex/commit/f3e113313bf318aa19e61dce73e2548958f97a8d))
+
 ## [0.2.0-5](https://github.com/92green/reusable-regex/compare/0.2.0-4...0.2.0-5) (2023-09-20)
 
 
