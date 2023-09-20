@@ -1,5 +1,16 @@
 
 
+## [0.2.0-5](https://github.com/92green/reusable-regex/compare/0.2.0-4...0.2.0-5) (2023-09-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* renamed ISO8601 regex
+
+### Features
+
+* renamed ISO8601 regex ([436e307](https://github.com/92green/reusable-regex/commit/436e3072b8c942ae21e92c81f3daade9b0941693))
+
 ## [0.2.0-4](https://github.com/92green/reusable-regex/compare/0.2.0-3...0.2.0-4) (2023-09-20)
 
 
