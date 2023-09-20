@@ -1,5 +1,63 @@
 
 
+## [0.2.1](https://github.com/92green/reusable-regex/compare/0.2.1-0...0.2.1) (2023-09-20)
+
+## [0.2.0-6](https://github.com/92green/reusable-regex/compare/0.2.0-5...0.2.0-6) (2023-09-20)
+
+
+### Features
+
+* updated test cases for tenantid regex ([f3e1133](https://github.com/92green/reusable-regex/commit/f3e113313bf318aa19e61dce73e2548958f97a8d))
+
+## [0.2.0-5](https://github.com/92green/reusable-regex/compare/0.2.0-4...0.2.0-5) (2023-09-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* renamed ISO8601 regex
+
+### Features
+
+* renamed ISO8601 regex ([436e307](https://github.com/92green/reusable-regex/commit/436e3072b8c942ae21e92c81f3daade9b0941693))
+
+## [0.2.0-4](https://github.com/92green/reusable-regex/compare/0.2.0-3...0.2.0-4) (2023-09-20)
+
+
+### Maintenance
+
+* updated documentation ([086fa84](https://github.com/92green/reusable-regex/commit/086fa84eabf6ef30a6c93e5cac9e8640c6d34cf8))
+
+## [0.2.0-3](https://github.com/92green/reusable-regex/compare/0.2.0-2...0.2.0-3) (2023-09-20)
+
+## [0.2.0-2](https://github.com/92green/reusable-regex/compare/0.2.0-1...0.2.0-2) (2023-09-20)
+
+## [0.2.0-1](https://github.com/92green/reusable-regex/compare/0.2.0-0...0.2.0-1) (2023-09-20)
+
+
+### Maintenance
+
+* updated automatic release documentation ([953129b](https://github.com/92green/reusable-regex/commit/953129bd2ad820ce238dbf7aeb55ba5f1bb54f0a))
+
+## [0.2.0-0](https://github.com/92green/reusable-regex/compare/0.1.0-4...0.2.0-0) (2023-09-20)
+
+
+### Features
+
+* make pre-push an executable ([a2d8133](https://github.com/92green/reusable-regex/commit/a2d8133a3c8436715527ab0fef5c5ae979e20b51))
+
+
+### Bug Fixes
+
+* fixed package version in lock file ([095b60a](https://github.com/92green/reusable-regex/commit/095b60a73d9b12d05e26e61fe9f823468caea6bb))
+* fixed version number ([180a837](https://github.com/92green/reusable-regex/commit/180a837b5e48792f5e2ee532396dc584b629dabb))
+* package.json version field ([f470a73](https://github.com/92green/reusable-regex/commit/f470a73cf927a5c50b329a451df3900414c8aaae))
+
+
+### Maintenance
+
+* documentation ([cabae01](https://github.com/92green/reusable-regex/commit/cabae0189006dad5da4e9fd695b7cfeb7dae45fe))
+* prevent pushes to auto-release (locally) ([4f3d870](https://github.com/92green/reusable-regex/commit/4f3d8706da517389baf0cdfbb87f00662c04ea80))
+
 ## [0.1.0-4](https://github.com/92green/reusable-regex/compare/0.1.0-3...0.1.0-4) (2023-09-18)
 
 

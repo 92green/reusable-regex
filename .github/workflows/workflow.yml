@@ -65,14 +65,14 @@ jobs:
         env:
           NPM_CONFIG_USERCONFIG: $GITHUB_WORKSPACE/.npmrc
           NODE_ENV: "development"
-      - name: PreRelease
-        run: npx release-it --preRelease --ci
+      - name: Package pre-release
+        run: npx release-it --preRelease --ci --config release-it.pre-release-config.js
         env:
           NODE_ENV: "development"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   publish_release:
     needs: test
-    if: contains(github.ref, 'refs/heads/main')
+    if: contains(github.ref, 'refs/heads/auto-release')
     strategy:
       matrix:
         version: [18]
@@ -106,8 +106,8 @@ jobs:
         env:
           NPM_CONFIG_USERCONFIG: $GITHUB_WORKSPACE/.npmrc
           NODE_ENV: "development"
-      - name: PreRelease
-        run: npx release-it --ci
+      - name: Package release
+        run: npx release-it --ci --config release-it.release-config.js
         env:
           NODE_ENV: "development"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

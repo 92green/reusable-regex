@@ -1,6 +1,6 @@
 {
     "name": "@92green/reusable-regex",
-    "version": "0.1.0-4",
+    "version": "0.2.1",
     "description": "Resuable regexes for blueflag projects.",
     "main": "index.js",
     "author": "Daniel Corcoran",
@@ -37,38 +37,5 @@
         "@commitlint/cli": "^17.7.1",
         "@commitlint/config-conventional": "^17.7.0",
         "@release-it/conventional-changelog": "^5.1.1"
-    },
-    "release-it": {
-        "git": {
-            "commitMessage": "chore: release v${version}"
-        },
-        "github": {
-            "release": true
-        },
-        "npm": {
-            "publish": true
-        },
-        "plugins": {
-            "@release-it/conventional-changelog": {
-                "infile": "CHANGELOG.md",
-                "preset": {
-                    "name": "conventionalcommits",
-                    "types": [
-                        {
-                            "type": "feat",
-                            "section": "Features"
-                        },
-                        {
-                            "type": "fix",
-                            "section": "Bug Fixes"
-                        },
-                        {
-                            "type": "chore",
-                            "section": "Maintenance"
-                        }
-                    ]
-                }
-            }
-        }
     }
 }
