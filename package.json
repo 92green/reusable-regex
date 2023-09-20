@@ -1,6 +1,6 @@
 {
     "name": "@92green/reusable-regex",
-    "version": "0.2.0-1",
+    "version": "0.2.0-2",
     "description": "Resuable regexes for blueflag projects.",
     "main": "index.js",
     "author": "Daniel Corcoran",
