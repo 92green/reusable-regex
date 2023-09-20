@@ -1,5 +1,12 @@
 
 
+## [0.2.0-1](https://github.com/92green/reusable-regex/compare/0.2.0-0...0.2.0-1) (2023-09-20)
+
+
+### Maintenance
+
+* updated automatic release documentation ([953129b](https://github.com/92green/reusable-regex/commit/953129bd2ad820ce238dbf7aeb55ba5f1bb54f0a))
+
 ## [0.2.0-0](https://github.com/92green/reusable-regex/compare/0.1.0-4...0.2.0-0) (2023-09-20)
 
 

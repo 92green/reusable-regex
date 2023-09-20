@@ -34,5 +34,5 @@ Please be mindful of your commit messages as **they will show up** in auto-gener
 
 Automatic releases have been configured in github workflows, and as such;
 
-- targetting `release/*` branch will trigger an automated prerelease package publish
-- targetting `auto-release` branch will trigger a package release publish
+- Pushes to `release/*` branch will trigger an automated package prerelease (eg. 1.0.0-0 -> 1.0.0-1)
+- Pushes to `auto-release` branch will trigger a package release (eg. 1.0.0 -> 1.1.0)
