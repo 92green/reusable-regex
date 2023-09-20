@@ -1,5 +1,12 @@
 
 
+## [0.2.0-4](https://github.com/92green/reusable-regex/compare/0.2.0-3...0.2.0-4) (2023-09-20)
+
+
+### Maintenance
+
+* updated documentation ([086fa84](https://github.com/92green/reusable-regex/commit/086fa84eabf6ef30a6c93e5cac9e8640c6d34cf8))
+
 ## [0.2.0-3](https://github.com/92green/reusable-regex/compare/0.2.0-2...0.2.0-3) (2023-09-20)
 
 ## [0.2.0-2](https://github.com/92green/reusable-regex/compare/0.2.0-1...0.2.0-2) (2023-09-20)
