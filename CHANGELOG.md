@@ -1,5 +1,25 @@
 
 
+## [0.2.0-0](https://github.com/92green/reusable-regex/compare/0.1.0-4...0.2.0-0) (2023-09-20)
+
+
+### Features
+
+* make pre-push an executable ([a2d8133](https://github.com/92green/reusable-regex/commit/a2d8133a3c8436715527ab0fef5c5ae979e20b51))
+
+
+### Bug Fixes
+
+* fixed package version in lock file ([095b60a](https://github.com/92green/reusable-regex/commit/095b60a73d9b12d05e26e61fe9f823468caea6bb))
+* fixed version number ([180a837](https://github.com/92green/reusable-regex/commit/180a837b5e48792f5e2ee532396dc584b629dabb))
+* package.json version field ([f470a73](https://github.com/92green/reusable-regex/commit/f470a73cf927a5c50b329a451df3900414c8aaae))
+
+
+### Maintenance
+
+* documentation ([cabae01](https://github.com/92green/reusable-regex/commit/cabae0189006dad5da4e9fd695b7cfeb7dae45fe))
+* prevent pushes to auto-release (locally) ([4f3d870](https://github.com/92green/reusable-regex/commit/4f3d8706da517389baf0cdfbb87f00662c04ea80))
+
 ## [0.1.0-4](https://github.com/92green/reusable-regex/compare/0.1.0-3...0.1.0-4) (2023-09-18)
 
 
