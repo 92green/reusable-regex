@@ -2,7 +2,7 @@ const {
     UUIDV4_REGEX,
     HEX_COLOUR_CODE_REGEX,
     TENANT_ID_REGEX,
-    ISO_DATETIME_REGEX
+    ISO8601_DATETIME_REGEX
 } = require('.')
 
 
@@ -94,9 +94,9 @@ describe("REGEXES SUITE", () => {
         {input: "2023-09-18", output: false},
         {input: "2023/09/18", output: false},
         {input: "2023-09-18T01:16:54.533", output: false},
-    ])("ISO_DATETIME_REGEX: $input should result in $output", ({input, output}) => {
+    ])("ISO8601_DATETIME_REGEX: $input should result in $output", ({input, output}) => {
         expect(
-            ISO_DATETIME_REGEX.test(input)
+            ISO8601_DATETIME_REGEX.test(input)
         ).toEqual(output)
     })
 })
